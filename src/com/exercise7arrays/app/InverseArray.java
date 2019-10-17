@@ -1,6 +1,6 @@
 package com.exercise7arrays.app;
 import java.util.Random;
-public class InverseValues {
+public class InverseArray {
 	public static void main(String[] args) {
 		final byte ARRAY_SIZE = 100;
 		

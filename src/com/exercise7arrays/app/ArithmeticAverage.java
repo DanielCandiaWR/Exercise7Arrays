@@ -1,6 +1,6 @@
 package com.exercise7arrays.app;
 import java.util.Random;
-public class ArithmetiAverage {
+public class ArithmeticAverage {
 	public static void main(String[] args) {
 		final byte ARRAY_SIZE = 100;
 		byte [] myArray = new byte[ARRAY_SIZE];
@@ -15,7 +15,7 @@ public class ArithmetiAverage {
 		}
 		
 		for(int i=0;i<ARRAY_SIZE;i++) {
-			System.out.print(myArray[i]+",");
+			System.out.print(myArray[i]+" ");
 			summation += myArray[i];
 		}
 		result = summation/myArray.length;

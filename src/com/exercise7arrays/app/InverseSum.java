@@ -14,8 +14,6 @@ public class InverseSum {
 		for(int i=0; i<ARRAY_SIZE;i++) {
 			generatedByteNumber = (byte) randomNumber.nextInt(101);
 			myArray1[i] = generatedByteNumber;
-		}
-		for(int i=0; i<ARRAY_SIZE;i++) {
 			generatedByteNumber = (byte) randomNumber.nextInt(101);
 			myArray2[i] = generatedByteNumber;
 		}
